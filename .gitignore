@@ -5,3 +5,5 @@ lib
 include
 share
 pyvenv.cfg
+.env
+*.pdf
