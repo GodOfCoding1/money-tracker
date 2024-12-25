@@ -104,6 +104,6 @@ def extract_data_from_html(file_path, start_date, end_date):
 
 # Replace 'path_to_file.html' with the actual path to your HTML file
 # Replace '2024-01-01' and '2024-12-31' with your desired start and end dates, ensure they are in IST timezone
-extract_data_from_html(Path(Path.cwd(),"data","gpay","Google Pay","My Activity","My Activity.html"), 
+extract_data_from_html(Path(Path.cwd(), "data", "gpay", "Google Pay", "My Activity", "My Activity.html"), 
                        datetime(2024, 11, 1, tzinfo=timezone(timedelta(hours=5, minutes=30))), 
                        datetime(2024, 12, 1, tzinfo=timezone(timedelta(hours=5, minutes=30))))
